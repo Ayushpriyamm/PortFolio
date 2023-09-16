@@ -1,11 +1,13 @@
 import './App.css'
+import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 
 function App() {
   
   return (
-    <div className='bg-blue-500'>
+    <div >
       <Navbar/>
+      <HeroSection/>
     </div>
       
   )
