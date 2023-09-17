@@ -11,13 +11,13 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex flex-row p-6 mx-auto md:flex md:flex-row md:justify-between md:items-center justify-between items-center'>
+    <div className='bg-black flex flex-row p-6 mx-auto md:flex md:flex-row md:justify-between md:items-center justify-between items-center'>
         <div className='md:hidden'>
         <button onClick={toggleMenu} className='text-green hover:text-green-500'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-6 w-6'
-            fill='none'
+            fill='fill-current'
             viewBox='0 0 24 24'
             stroke='currentColor'
           >
@@ -32,7 +32,7 @@ const Navbar = () => {
       </div>
       {isMenuOpen && (
         <div className='md:hidden'>
-          <div className='flex flex-col space-y-2'>
+          <div className='text-white flex flex-col space-y-2'>
             <a href='/' className='text-xl'>Home</a>
             <a href='/' className='text-xl'>About</a>
             <a href='/' className='text-xl'>Service</a>
@@ -41,10 +41,10 @@ const Navbar = () => {
         </div>
       )}
 
-        <div className='flex flex-row space-x-4'>
-            <a href="/" className='flex flex-row space-x-4'>
+        <div className='flex flex-row '>
+            <a href="/" className='flex flex-row  items-center space-x-4'>
             <img src={NavImg} alt="logo-img" />
-            <h2 className='text-5xl font-extrabold'> Ayush</h2>
+            <h2 className='text-white text-3xl md:text-5xl font-bold md:font-extrabold'> Ayush</h2>
             </a>
             
         </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
 
       
 
-        <div className='md:flex flex flex-row space-x-6 font-semibold '>
+        <div className='md:flex flex flex-row space-x-6 font-semibold text-white '>
             <div className='hidden md:block text-xl'>
                 <a href="/" className='border-b-4 border-green-500 hover:rounded hover '>Home</a>
             </div>
