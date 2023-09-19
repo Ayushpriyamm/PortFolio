@@ -11,9 +11,9 @@ const Navbar = () => {
 
 
   return (
-    <div className='bg-black flex flex-row p-6 mx-auto md:flex md:flex-row md:justify-between md:items-center justify-between items-center'>
+    <div className=' bg-black flex flex-row p-6 mx-auto md:flex md:flex-row md:justify-between md:items-center justify-between items-center'>
         <div className='md:hidden'>
-        <button onClick={toggleMenu} className='text-green hover:text-green-500'>
+        <button onClick={toggleMenu} className=' bg-green 500 text-green hover:text-green-500'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-6 w-6'

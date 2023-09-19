@@ -6,26 +6,39 @@ const Advantages = () => {
     {
       skill: "React",
       value: "88%",
+      bg: 'text-green-500',
+      bgColour:'p-0.5 bg-gradient-to-t from-[#1F1E1D] to-green-500 rounded-[12px]',
     },
     {
       skill: "Node",
       value: "70%",
+      bg: 'text-yellow-500',
+      bgColour:'p-0.5  bg-gradient-to-t from-[#1F1E1D] to-yellow-500 rounded-[12px]',
     },
     {
       skill: "MongoDB",
       value: "65%",
+      bg:'text-red-500',
+      bgColour:'p-0.5  bg-gradient-to-t from-[#1F1E1D] to-red-500 rounded-[12px]',
     },
     {
       skill: "Exress",
       value: "70%",
+      bg:'text-orange-500',
+      bgColour:'p-0.5 bg-gradient-to-t from-[#1F1E1D] to-orange-500 rounded-[12px]',
+      
     },
     {
       skill: "WordPress",
       value: "98%",
+      bg:'text-blue-500',
+      bgColour:'p-0.5 bg-gradient-to-t from-[#1F1E1D] to-blue-500 rounded-[12px]',
     },
     {
       skill: "Figma",
       value: "90%",
+      bg:'text-purple-500',
+      bgColour:' p-0.5 bg-gradient-to-t from-[#1F1E1D] to-purple-500 rounded-[12px]',
     },
     
     
@@ -78,7 +91,12 @@ const Advantages = () => {
               <div key={chunkIndex} className='flex flex-row  py-7 md:py-10'>
               {chunk.map((skill, index) => (
                 <div key={index} className="w-1/2 md:w-1/3 p-4 md:p-2"> {/* Use w-1/3 for three cards in a row */}
-                  <SkillCard skill={skill.skill} value={skill.value} />
+                  <SkillCard
+                   skill={skill.skill}
+                   value={skill.value}
+                   bg={skill.bg}
+                   bgColour={skill.bgColour}
+                  />
                 </div>
 
               ))}
