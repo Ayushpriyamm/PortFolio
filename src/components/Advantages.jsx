@@ -58,7 +58,7 @@ const Advantages = () => {
 
   return (
     <div>
-      <div className='bg-gradient-to-r from-black via-[#19191a] to-[#291632] mx-auto flex flex-col md:flex-row justify-between  items-center p-6'>
+      <div className='py-20 bg-gradient-to-r from-black via-[#19191a] to-[#291632] mx-auto flex flex-col md:flex-row justify-between  items-center p-6'>
 
         <div className='flex flex-col'>
           <div className='bg-gradient-to-t from-black via-transparent to-[#484013]  flex md:h-[500px]  flex-col bg-white bg-opacity-10 shadow-2xl drop-shadow-2xl rounded-3xl py-7 space-y-4   '>

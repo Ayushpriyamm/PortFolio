@@ -7,7 +7,7 @@ import MyImg from'../assets/heroImg3.png'
 
 const HeroSection = () => {
   return (
-    <div className='bg-radial-gradient flex flex-col md:flex md:flex-row mx-auto justify-between  items-center p-6 md:py-20 '>
+    <div className='py-20 bg-radial-gradient flex flex-col md:flex md:flex-row mx-auto justify-between  items-center p-6 md:py-20 '>
         
       <div className='flex flex-col text-center md:text-left'>
         <h1 className='text-white text-5xl md:text-7xl font-bold md:font-extrabold py-4'>I am Ayush</h1>

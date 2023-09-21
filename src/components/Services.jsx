@@ -78,12 +78,12 @@ const data=[
 
   return (
     <div>
-        <div className=' bg-gradient-to-r from-[#343116] via-[#201f18] to-[#191919] text-white text-center flex flex-col  p-6'>
+        <div className='py-20 bg-gradient-to-r from-[#343116] via-[#201f18] to-[#191919] text-white text-center flex flex-col  p-6'>
 
             <div className='text-3xl md:text-6xl font-bold md:font-extrabold py-5 px-10'>
                 <h1>Popular Services</h1>
             </div>
-            <div className='p-10'>
+            <div className='p-6'>
                 <p>Must explain to yotu how all this mistaken idea of denouncing 
                   pleasure born and give you a complete account the system</p>
             </div>
