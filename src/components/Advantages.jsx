@@ -1,13 +1,17 @@
 import React from 'react'
+import {motion} from 'framer-motion'
+
 import SkillCard from './SkillCard'
 
 const Advantages = () => {
+
+  
   const skillset = [
     {
       skill: "React",
       value: "88%",
       bg: 'text-green-500',
-      bgColour:'p-0.5 bg-gradient-to-t from-[#1F1E1D] to-green-500 rounded-[12px]',
+      bgColour:' p-0.5 bg-gradient-to-t from-[#1F1E1D] to-green-500 rounded-[12px]',
     },
     {
       skill: "Node",
@@ -57,8 +61,8 @@ const Advantages = () => {
   },[])
 
   return (
-    <div>
-      <div className='py-20 bg-gradient-to-r from-black via-[#19191a] to-[#291632] mx-auto flex flex-col md:flex-row justify-between  items-center p-6'>
+    <motion.div id="Advantages" className='bg-gradient-to-r from-black via-[#19191a] to-[#291632]'>
+      <motion.div className='py-20 mx-auto flex flex-col md:flex-row justify-between  items-center p-6'>
 
         <div className='flex flex-col'>
           <div className='bg-gradient-to-t from-black via-transparent to-[#484013]  flex md:h-[500px]  flex-col bg-white bg-opacity-10 shadow-2xl drop-shadow-2xl rounded-3xl py-7 space-y-4   '>
@@ -81,9 +85,11 @@ const Advantages = () => {
             My Advantage
           </h1>
           <p className='py-4'>
-            Must explain to you how all this mistaken idea of denouncing pleasure
-            praising pain was born and I will give you a complete account the
-            system and expound the actual and praising pain was born.
+          Let me shed light on why choosing me is your smartest move. 
+          It's time to unravel the myths, debunk the misconceptions, 
+          and uncover the true essence of what I bring to the table, 
+          which is a transformative blend of expertise, 
+          innovation, and a relentless commitment to your success.
           </p>
 
          {chunkedSkillset.map((chunk,chunkIndex)=>(
@@ -104,9 +110,10 @@ const Advantages = () => {
          ))}
 
         </div>
-
-      </div>
-    </div>
+          
+      </motion.div>
+      
+    </motion.div>
   )
 }
 

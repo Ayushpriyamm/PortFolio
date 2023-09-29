@@ -2,9 +2,8 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Graphics from '../assets/vector.png'
-import HeroImg from '../assets/heroImg.jpg';
-import MyImg from'../assets/heroImg3.png'
+import Graphics from '../assets/recentwork.svg'
+
 import HairBasics from '../assets/hairBasics.png'
 import Abcs from '../assets/abcs.png'
 import Tindog from '../assets/tindog.png'
@@ -63,14 +62,17 @@ const Carousel = () => {
       };
 
   return (
-    <div className='text-white bg-gradient-to-r from-[#544c08] via-[#201f18] to-[#191919] space-y-10 p-10 md:p-20'>
+    <div id="recent-work" className='text-white bg-gradient-to-r from-[#544c08] via-[#201f18] to-[#191919] space-y-10 p-10 md:p-20'>
       <div className='grid  md:grid-cols-2 gap-5 space-y-6'>
         <div className='flex flex-col text-center md:text-left '>
             <h2 className='text-4xl font-bold '>My Recent Work</h2>
-            <p className='text-xl' >Must explain to you how all this mistaken 
-            idea pleasure born and give you a complete account.</p>
+            <p className='text-xl' >
+            Allow me to present my recent work, 
+            where I'll provide you with a comprehensive account of my 
+            latest projects, leaving no room for mistaken ideas.
+            </p>
         </div> 
-        <div className=' flex justify-center mx-auto my-auto items-center backdrop-saturate-200 bg-white/30 hover:bg-yellow-500 rounded-[50%] w-[110px] h-[110px]'>
+        <div className=' flex justify-center mx-auto my-auto items-center backdrop-saturate-200 bg-white/30 hover:bg-green-500 rounded-[50%] w-[110px] h-[110px]'>
             <img src={Graphics} className='md:w-[95px] md:h-[95px]'  alt="" />
             </div>
       </div> 
