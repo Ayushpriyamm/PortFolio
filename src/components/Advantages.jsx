@@ -64,7 +64,14 @@ const Advantages = () => {
     <motion.div id="Advantages" className='bg-gradient-to-r from-black via-[#19191a] to-[#291632]'>
       <motion.div className='py-20 mx-auto flex flex-col md:flex-row justify-between  items-center p-6'>
 
-        <div className='flex flex-col'>
+        <motion.div 
+        initial={{x:-1000}} 
+        animate={{x:[-1000,0]}}
+        transition={{
+          duration:3,
+          delay:0.4
+        }}
+        className='flex flex-col'>
           <div className='bg-gradient-to-t from-black via-transparent to-[#484013]  flex md:h-[500px]  flex-col bg-white bg-opacity-10 shadow-2xl drop-shadow-2xl rounded-3xl py-7 space-y-4   '>
             <h1 className='text-yellow-500 text-9xl font-extrabold text-center'>02</h1>
             <h2 className='text-white text-center text-xl font-bold p-4'>Years Of Experience</h2>
@@ -78,7 +85,7 @@ const Advantages = () => {
             
 
           </div>
-        </div>
+        </motion.div>
 
         <div className='text-white flex flex-col md:w-1/2'>
           <h1 className='text-3xl md:text-6xl font-extrabold '>

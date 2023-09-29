@@ -5,21 +5,12 @@ const ContactCard = ({img,category,value}) => {
   return (
     <div>
         <motion.div
+
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 0 }}
+        transition={{ duration:0.5,delay:0.4}}
+        whileInView={{scale:1, opacity: 1 }} 
         
-            initial={{ opacity: 0, scale: 0 }}
-              animate={{ opacity: 1, scale: 0 }}
-              transition={{
-                 delay:0.4,
-                 duration: 0.3,
-                 ease: [0, 0.71, 0.2, 1.01],
-                 scale: {
-                  type: "spring",
-                  damping: 5,
-                  stiffness: 100,
-                  restDelta: 0.001,
-                 }
-                }}
-            whileInView={{scale:1, opacity: 1 }}
         className='mx-auto text-center hover:border hover:border-[#ffffff] rounded-lg text-xl font-bold p-3 bg-[#1F1E1D]  text-white flex flex-col  justify-around  justify-center items-center space-y-10  md:space-y-10 '>
             <div >
                 {value}

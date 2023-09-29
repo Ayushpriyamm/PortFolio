@@ -18,8 +18,7 @@ const Footer = () => {
 
                 <div>
                     <p>
-                    Welcome and open yourself 
-                    to your truest love this year with us! With the Release Process
+                    Welcome to my creative playground, where innovation meets imagination.
                     </p>
                 </div>
                 <div className='flex flex-row space-x-4'>
@@ -44,7 +43,7 @@ const Footer = () => {
                                   
                 <ul className=' py-4 space-y-2'>
                     <li>
-                        <a href="/">-Home</a>
+                        <a href="#Home">-Home</a>
                     </li>
                     <li>
                         <a href="#Advantages">-About</a>
