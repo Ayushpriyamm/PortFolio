@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 
 import ButtonGreen from './ButtonGreen';
 import Figma from '../assets/figma-icon.svg';
-import PsImg from '../assets/PsImg.svg';
+
 
 import MongoDB from '../assets/shield.svg';
 import ReactIcon from '../assets/react-js-icon.svg'
@@ -65,9 +65,7 @@ const HeroSection = () => {
       className='flex justify-center items-center md:w-450'>
         <div className='relative'>
           <img className='rounded-[50%]   z-40' src={MyImg} alt='' />
-            <div className='z-50 absolute left-0 top-[20%] w-[110px] h-[110px] p-[20px] bg-white bg-opacity-30 rounded-[25px] md:top-[15%] md:w-[95px] md:h-[95px] md:p-[15px] md:rounded-[15px] col:top-[10%] col:w-[70px] col:h-[70px] col:p-[15px] col:rounded-[15px] floating-item'>
-              <img src={PsImg} alt='' />
-            </div>
+            
             <div className='z-50 absolute right-0 top-[20%] w-[100px] h-[100px] p-[20px] bg-white bg-opacity-30 rounded-[25px] md:top-[15%] md:w-[95px] md:h-[95px] md:p-[15px] md:rounded-[15px] col:top-[10%] col:w-[70px] col:h-[70px] col:p-[15px] col:rounded-[15px] floating-item'>
               <img src={Figma} alt='' />
             </div>
