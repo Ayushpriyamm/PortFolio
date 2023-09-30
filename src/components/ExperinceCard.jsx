@@ -13,10 +13,10 @@ const ExperinceCard = ({year,logo,role,city}) => {
             <div >
                 {year}
             </div>
-            <div >
+            <div  >
                 <img className='rounded-[50%]' src={logo} alt="" />
             </div>
-            <div>
+            <div className='text-center'>
                 {role}
             </div>
             <div>
