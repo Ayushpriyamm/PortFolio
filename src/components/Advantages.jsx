@@ -26,7 +26,7 @@ const Advantages = () => {
       bgColour:'p-0.5  bg-gradient-to-t from-[#1F1E1D] to-red-500 rounded-[12px]',
     },
     {
-      skill: "Exress",
+      skill: "Express",
       value: "70%",
       bg:'text-orange-500',
       bgColour:'p-0.5 bg-gradient-to-t from-[#1F1E1D] to-orange-500 rounded-[12px]',
