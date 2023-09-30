@@ -5,6 +5,7 @@ import {motion} from 'framer-motion'
 import ButtonGreen from './ButtonGreen';
 import Figma from '../assets/figma-icon.svg';
 import PsImg from '../assets/PsImg.svg';
+
 import MongoDB from '../assets/shield.svg';
 import ReactIcon from '../assets/react-js-icon.svg'
 import MyImg from'../assets/heroImg5.png'
@@ -31,7 +32,7 @@ const HeroSection = () => {
         animate={{x:[-1000,0]}}
         transition={{
           duration:3,
-          delay:0.4
+          
         }}
         className='text-yellow-500 text-5xl md:text-7xl font-bold md:font-extrabold py-4'>
           Hello,
@@ -57,8 +58,8 @@ const HeroSection = () => {
        initial={{x:1000}} 
        animate={{x:[1000,0]}}
        transition={{
-         duration:3,
-         delay:0.4
+         duration:2,
+         
        }}
       
       className='flex justify-center items-center md:w-450'>
