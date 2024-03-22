@@ -4,37 +4,35 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Graphics from "../assets/recentwork.svg";
 
-import HairBasics from "../assets/hairBasics.png";
-import Abcs from "../assets/abcs.png";
 import Tindog from "../assets/tindog.png";
 import Shirt from "../assets/shirt.png";
-import PropertyDealer from "../assets/propertyDealer.png";
+import PropertyDealer from "../assets/prop.png";
 import { WorkCard } from "./WorkCard";
 
 const Carousel = () => {
   const work = [
     {
-      img: Tindog,
-      text: "TinDog-Meet new and interesting dogs nearby.",
-      link: "https://ayushpriyamm.github.io/tindog/",
+      img: PropertyDealer,
+      text: "Property Dealer is the bset place to find youor next perfect place to live",
+      link: "https://property-dealer.onrender.com/",
     },
+
     {
       img: Shirt,
       text: "3D-Tshirts-UNLEASH YOUR IMAGINATION and Define Your Own Style.",
       link: "https://customtshirtdesignbyayushpriyam.shaktivriksh.com/",
     },
-
     {
-      img: PropertyDealer,
-      text: "Property Dealer is the bset place to find youor next perfect place to live",
-      link: "https://property-dealer.onrender.com/",
+      img: Tindog,
+      text: "TinDog-Meet new and interesting dogs nearby.",
+      link: "https://ayushpriyamm.github.io/tindog/",
     },
   ];
 
   var settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     speed: 3000,
